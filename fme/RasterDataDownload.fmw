@@ -17,7 +17,7 @@
 #    
 #! PASSWORD=""
 #! ATTR_TYPE_ENCODING="SDF"
-#! VIEW_POSITION="-1448 -319"
+#! VIEW_POSITION="-1105 592"
 #! SHOW_INFO_NODES="true"
 #! FME_STROKE_MAX_DEVIATION="0"
 #! BEGIN_PYTHON=""
@@ -35,13 +35,13 @@
 #! USAGE=""
 #! END_PYTHON=""
 #! HISTORY=",,"
-#! FME_DOCUMENT_PRIORGUID="4795baea-249b-11e4-949e-bec49cce8bba,3e79e13a-24a4-11e4-949e-bec49cce8bba"
-#! DOC_TOP_LEFT="-1189 -1842"
+#! FME_DOCUMENT_PRIORGUID="4795baea-249b-11e4-949e-bec49cce8bba,3e79e13a-24a4-11e4-949e-bec49cce8bba,d7c7cf02-24a7-11e4-949e-bec49cce8bba"
+#! DOC_TOP_LEFT="-35 -1814"
 #! REQUIREMENTS_KEYWORD="none"
 #! SOURCE_ROUTING_FILE=""
 #! DESTINATION_ROUTING_FILE=""
 #! DESTINATION="NONE"
-#! LAST_SAVE_DATE="2014-08-15T14:59:33"
+#! LAST_SAVE_DATE="2014-08-15T15:50:35"
 #! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Datum"
 #! WORKSPACE_VERSION="1"
 #! SOURCE="NONE"
@@ -51,8 +51,8 @@
 #! LOG_FILE=""
 #! REQUIREMENTS=""
 #! BEGIN_TCL=""
-#! DOC_EXTENTS="6678 1167"
-#! FME_DOCUMENT_GUID="d7c7cf02-24a7-11e4-949e-bec49cce8bba"
+#! DOC_EXTENTS="4236 1325"
+#! FME_DOCUMENT_GUID="874a60ea-24c9-11e4-949e-bec49cce8bba"
 #! SHOW_ANNOTATIONS="true"
 #! IGNORE_READER_FAILURE="No"
 #! WARN_INVALID_XFORM_PARAM="Yes"
@@ -79,7 +79,7 @@
 #! ENABLED="true"
 #! DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #! GENERATE_FME_BUILD_NUM="12263"
-#! NAME="Desktop [GENERIC]"
+#! NAME="Output [GENERIC]"
 #! FANOUT_PREFIX=""
 #! COORDSYS=""
 #! FANOUT="No"
@@ -300,7 +300,7 @@
 #! IS_EDITABLE="true"
 #! IDENTIFIER="15"
 #! FEAT_GEOMTYPE="fme_raster"
-#! POSITION="5484 -1717"
+#! POSITION="4201 -1689"
 #! ORDER="30"
 #! COLLAPSED="false"
 #! KEYWORD="GENERIC_1"
@@ -436,12 +436,12 @@
 #! <COMMENT
 #! IDENTIFIER="29"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.Lucida Grande UI&apos;; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Helvetica&apos;; font-size:12pt; font-weight:600;&quot;&gt;Creates greyscale image by calculating &lt;br /&gt;average values for each band in the raster&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="1713 -675"
+#! POSITION="1622 -489"
 #! ORDER="20"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="1713 -675"
-#! BOTTOM_RIGHT="1713 -675"
+#! TOP_LEFT="1622 -489"
+#! BOTTOM_RIGHT="1622 -489"
 #! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
@@ -450,12 +450,12 @@
 #! <COMMENT
 #! IDENTIFIER="27"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.Lucida Grande UI&apos;; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Helvetica&apos;; font-size:12pt;&quot;&gt;GIF format does not support 3 &lt;br /&gt;bands, this creates a palette &lt;br /&gt;and reduces raster to 1 band with a palette&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="2985 -699"
+#! POSITION="2744 -545"
 #! ORDER="25"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="2985 -699"
-#! BOTTOM_RIGHT="2985 -699"
+#! TOP_LEFT="2744 -545"
+#! BOTTOM_RIGHT="2744 -545"
 #! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
@@ -464,12 +464,12 @@
 #! <COMMENT
 #! IDENTIFIER="24"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.Lucida Grande UI&apos;; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Helvetica&apos;; font-size:12pt; font-weight:600;&quot;&gt;Creates a thumbnail image of &lt;br /&gt;the raster with the size specified &lt;br /&gt;by a published parameter&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="1806 -1389"
+#! POSITION="1699 -1195"
 #! ORDER="28"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="1806 -1389"
-#! BOTTOM_RIGHT="1806 -1389"
+#! TOP_LEFT="1699 -1195"
+#! BOTTOM_RIGHT="1699 -1195"
 #! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
@@ -478,12 +478,12 @@
 #! <COMMENT
 #! IDENTIFIER="30"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.Lucida Grande UI&apos;; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Helvetica&apos;; font-size:12pt; font-weight:600;&quot;&gt;Create raster pyramid with number of levels user &lt;br /&gt;specified&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="4477 -682"
+#! POSITION="3055 -1179"
 #! ORDER="34"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="4477 -682"
-#! BOTTOM_RIGHT="4477 -682"
+#! TOP_LEFT="3055 -1179"
+#! BOTTOM_RIGHT="3055 -1179"
 #! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
@@ -492,12 +492,12 @@
 #! <COMMENT
 #! IDENTIFIER="51"
 #! COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.Lucida Grande UI&apos;; font-size:16px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Helvetica&apos;; font-size:12pt; font-weight:600;&quot;&gt;Label raster output files &lt;br /&gt;based on pyramid level&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="4051 -1192"
+#! POSITION="2594 -1492"
 #! ORDER="35"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="4051 -1192"
-#! BOTTOM_RIGHT="4051 -1192"
+#! TOP_LEFT="2594 -1492"
+#! BOTTOM_RIGHT="2594 -1492"
 #! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
@@ -506,12 +506,12 @@
 #! <COMMENT
 #! IDENTIFIER="52"
 #! COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Write out to selected raster&#13;&lt;br&gt; format&lt;/body&gt;&lt;/html&gt;"
-#! POSITION="5489 -1842"
+#! POSITION="3906 -1814"
 #! ORDER="36"
 #! FOLLOW_ANCHOR="true"
 #! INFO_NODE="false"
-#! TOP_LEFT="5489 -1842"
-#! BOTTOM_RIGHT="5489 -1842"
+#! TOP_LEFT="3906 -1814"
+#! BOTTOM_RIGHT="3906 -1814"
 #! COLOUR="1,1,0.784314,0.192157"
 #! SIZE_POLICY="8"
 #! COMMENT_TYPE="REGULAR"
@@ -539,8 +539,8 @@
 #! IDENTIFIER="48"
 #! NAME="Create greyscale image (if selected)"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="1177 -567"
-#! BOTTOM_RIGHT="2589 -1217"
+#! TOP_LEFT="1086 -381"
+#! BOTTOM_RIGHT="2498 -1031"
 #! STICKY="true"
 #! COLOUR="0.592157,0.819608,0.866667"
 #! CONTENTS="20 29 16 28 "
@@ -549,41 +549,41 @@
 #! IDENTIFIER="49"
 #! NAME="Convert raster from 3 bands to 1 band with palette (if necessary)"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="2597 -574"
-#! BOTTOM_RIGHT="3878 -1212"
+#! TOP_LEFT="2510 -384"
+#! BOTTOM_RIGHT="3791 -1022"
 #! STICKY="true"
 #! COLOUR="0.0784314,0.137255,0.494118"
-#! CONTENTS="31 19 32 27 "
+#! CONTENTS="27 31 19 32 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="50"
 #! NAME="Create thumbnail (if selected)"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="1184 -1286"
-#! BOTTOM_RIGHT="2970 -1891"
+#! TOP_LEFT="1105 -1064"
+#! BOTTOM_RIGHT="2388 -1826"
 #! STICKY="true"
 #! COLOUR="0.0509804,0.356863,0.647059"
-#! CONTENTS="24 23 33 43 38 40 "
+#! CONTENTS="40 23 33 38 43 24 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="47"
 #! NAME="Create raster pyramid (if selected)"
 #! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#! TOP_LEFT="3907 -577"
-#! BOTTOM_RIGHT="5446 -1420"
+#! TOP_LEFT="2485 -1074"
+#! BOTTOM_RIGHT="4024 -1697"
 #! STICKY="true"
 #! COLOUR="0.258824,0.109804,0.701961"
-#! CONTENTS="30 44 22 21 51 5 42 "
+#! CONTENTS="21 42 22 44 51 30 5 "
 #! />
 #! <BOOKMARK
 #! IDENTIFIER="64"
 #! NAME="Clip and read data"
-#! DESCRIPTION=""
-#! TOP_LEFT="-1189 -571"
-#! BOTTOM_RIGHT="1003 -1023"
+#! DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#! TOP_LEFT="-35 -351"
+#! BOTTOM_RIGHT="1035 -1263"
 #! STICKY="true"
-#! COLOUR="0.690196,0.0627451,0.101961"
-#! CONTENTS="57 61 62 59 58 63 60 "
+#! COLOUR="0.686275,0.0627451,0.101961"
+#! CONTENTS="57 58 62 59 61 60 63 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -591,7 +591,7 @@
 #! IDENTIFIER="16"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="1248 -972"
+#! POSITION="1157 -786"
 #! ORDER="21"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -614,7 +614,7 @@
 #! IDENTIFIER="28"
 #! TYPE="RasterExpressionEvaluator"
 #! VERSION="0"
-#! POSITION="1880 -830"
+#! POSITION="1789 -644"
 #! ORDER="22"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -635,7 +635,7 @@
 #! IDENTIFIER="31"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="2699 -955"
+#! POSITION="2612 -765"
 #! ORDER="23"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -658,7 +658,7 @@
 #! IDENTIFIER="19"
 #! TYPE="RasterPaletteGenerator"
 #! VERSION="0"
-#! POSITION="3348 -931"
+#! POSITION="3107 -777"
 #! ORDER="24"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -676,7 +676,7 @@
 #! IDENTIFIER="33"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="1289 -1601"
+#! POSITION="1190 -1190"
 #! ORDER="26"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -699,7 +699,7 @@
 #! IDENTIFIER="23"
 #! TYPE="RasterResampler"
 #! VERSION="3"
-#! POSITION="1868 -1666"
+#! POSITION="1185 -1460"
 #! ORDER="27"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -723,7 +723,7 @@
 #! IDENTIFIER="38"
 #! TYPE="AttributeCreator"
 #! VERSION="2"
-#! POSITION="2445 -1664"
+#! POSITION="1177 -1632"
 #! ORDER="29"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -738,7 +738,7 @@
 #! IDENTIFIER="21"
 #! TYPE="Tester"
 #! VERSION="1"
-#! POSITION="3986 -688"
+#! POSITION="2564 -1185"
 #! ORDER="31"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -761,7 +761,7 @@
 #! IDENTIFIER="42"
 #! TYPE="AttributeCreator"
 #! VERSION="2"
-#! POSITION="4684 -1028"
+#! POSITION="3262 -1525"
 #! ORDER="32"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -779,7 +779,7 @@
 #! IDENTIFIER="5"
 #! TYPE="RasterPyramider"
 #! VERSION="0"
-#! POSITION="4673 -818"
+#! POSITION="3251 -1315"
 #! ORDER="33"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -838,7 +838,7 @@
 #! IDENTIFIER="57"
 #! TYPE="Reprojector"
 #! VERSION="3"
-#! POSITION="-100 -877"
+#! POSITION="539 -746"
 #! ORDER="23"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -859,7 +859,7 @@
 #! IDENTIFIER="58"
 #! TYPE="Creator"
 #! VERSION="5"
-#! POSITION="-1097 -857"
+#! POSITION="28 -537"
 #! ORDER="24"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -882,7 +882,7 @@
 #! IDENTIFIER="62"
 #! TYPE="FeatureReader"
 #! VERSION="4"
-#! POSITION="522 -679"
+#! POSITION="553 -915"
 #! ORDER="5e+14"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -909,7 +909,7 @@
 #! <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE="TIFF"/>
 #! <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE="ENVELOPE_INTERSECT%INTERSECTS%CONTAINS%CROSSES%DISJOINT%EQUALS%OVERLAPS%TOUCHES%WITHIN"/>
-#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;solidus&gt;Users&lt;solidus&gt;sharper&lt;solidus&gt;Downloads&lt;solidus&gt;chrome&lt;solidus&gt;FMEData2014&lt;solidus&gt;Data&lt;solidus&gt;Orthophotos&lt;solidus&gt;*.tif"/>
+#! <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="Data&lt;solidus&gt;*.tif"/>
 #! <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="TIFF_FEATURE_TYPE_NAME,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;Feature Type from Format Name&quot;&quot;,FORMAT_NAME%&quot;&quot;Feature Type from File Name(s)&quot;&quot;,FILE_NAME%&quot;&quot;Feature Type from Subdataset Name(s)&quot;&quot;,SUBDATASET_NAME%&quot;&quot;Feature Type from File Name and Subdataset Name(s)&quot;&quot;,FILE_NAME_AND_SUBDATASET_NAME&quot;,TIFF&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Name&lt;openparen&gt;s&lt;closeparen&gt;:,TIFF_TIFF_EXPOSE_FORMAT_ATTRS,&quot;IGNORE TEXT&quot;,TIFF&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:"/>
 #! <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Keep result geometry only"/>
 #! <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep result attributes only"/>
@@ -935,7 +935,7 @@
 #! IDENTIFIER="59"
 #! TYPE="GeometryReplacer"
 #! VERSION="7"
-#! POSITION="-571 -860"
+#! POSITION="522 -512"
 #! ORDER="5e+14"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
@@ -997,7 +997,7 @@
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
-#! EXTRA_POINTS="3932 -1116"
+#! EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="26"
@@ -1069,7 +1069,7 @@
 #! SOURCE_PORT_DESC="fo 1"
 #! TARGET_PORT_DESC="fi 0"
 #! ENABLED="true"
-#! EXTRA_POINTS="2490 -1125"
+#! EXTRA_POINTS="2443 -947"
 #! />
 #! <FEAT_LINK
 #! IDENTIFIER="55"
@@ -1283,7 +1283,7 @@ INCLUDE [if { {INTERSECTS} == {} } {             puts {MACRO REMOVE_GEOM_FUNC @R
 Tcl2 set featTypes {TIFF};    set curIndex 0;    set inQuote 0;    while { [set ch [string index $featTypes $curIndex]] != {} } {       if { [string compare {\"} $ch] == 0 } {          set featTypes [string replace $featTypes $curIndex $curIndex {}];          set inQuote [expr 1-$inQuote];       } else {          if { [string compare { } $ch] == 0 && !$inQuote } {             set featTypes [string replace $featTypes $curIndex $curIndex {:}];          };          set curIndex [expr $curIndex+1];       }    };    set ::FeatureReader_FORMATTEDFEATURETYPES $featTypes;
 FACTORY_DEF * TeeFactory    FACTORY_NAME FeatureReader_GeometryRemover    INPUT  FEATURE_TYPE reprojectBbox_REPROJECTED    OUTPUT FEATURE_TYPE QueryFactoryInputFeatureType      $(REMOVE_GEOM_FUNC)
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE QueryFactoryInputFeatureType    $(QUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  RESULT_ONLY    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         TIFF    READER_DATASET      "<solidus>Users<solidus>sharper<solidus>Downloads<solidus>chrome<solidus>FMEData2014<solidus>Data<solidus>Orthophotos<solidus>*.tif"    READER_IDS          TIFF    READER_DIRECTIVES   META_MACROS,SourceFEATURE_TYPE_NAME<comma>FORMAT_NAME<comma>SourceTIFF_EXPOSE_FORMAT_ATTRS<comma><quote>fme_basename<comma>char<openparen>50<closeparen><quote>,METAFILE,TIFF,IDLIST,    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *      @SupplyAttributes(fme_feature_type,@FeatureType())      @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault $FME_FeatureType {<OTHER>}]")      @FeatureType(@Concatenate(FeatureReader,"_",@FeatureType()))      @Transform(TIFF,FME_GENERIC)    OUTPUT QUERY FEATURE_TYPE FeatureReader_INITIATOR
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE QueryFactoryInputFeatureType    $(QUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  RESULT_ONLY    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         TIFF    READER_DATASET      "Data<solidus>*.tif"    READER_IDS          TIFF    READER_DIRECTIVES   META_MACROS,SourceFEATURE_TYPE_NAME<comma>FORMAT_NAME<comma>SourceTIFF_EXPOSE_FORMAT_ATTRS<comma><quote>fme_basename<comma>char<openparen>50<closeparen><quote>,METAFILE,TIFF,IDLIST,    READER_PARAMS     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *      @SupplyAttributes(fme_feature_type,@FeatureType())      @Tcl2("set FME_FeatureType [FeatureReader_findInListElseDefault $FME_FeatureType {<OTHER>}]")      @FeatureType(@Concatenate(FeatureReader,"_",@FeatureType()))      @Transform(TIFF,FME_GENERIC)    OUTPUT QUERY FEATURE_TYPE FeatureReader_INITIATOR
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader <OTHER> Output Nuker"   INPUT FEATURE_TYPE FeatureReader_<OTHER>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader INITIATOR Output Nuker"   INPUT FEATURE_TYPE FeatureReader_INITIATOR
@@ -1297,6 +1297,20 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE
 # -------------------------------------------------------------------------
 FACTORY_DEF * TransformFact:1:RasterMosaicker    FACTORY_NAME RasterMosaicker    FACTORY_META_PARAMS    TRANSFORMER_NAME:RasterMosaicker    TRANSFORMER_PARAMS:XFORMER_NAME,RasterMosaicker,TRANSFORMER_GROUP,,GROUP_BY,,ALIGNMENT_GROUP,,SNAPPING_TYPE_NAME,Resample,INTERPOLATION_TYPE_NAME,Nearest<space>Neighbor,DATA_VALUES_GROUP,,NODATA_OVERWRITE,No,COMPOSITE_USING_ALPHA_BAND_NAME,No,PALETTES_GROUP,,MERGE_PALETTES_NAME,Yes,ATTRIBUTES_GROUP,,ACCUM_ATTRS_NAME,Yes,COUNT_ATTR,    MULTI_PROCESS MODERATE    GROUPS_ARE_ORDERED NO INPUT  FEATURE_TYPE AttributeExposer_OUTPUT    OUTPUT OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker OUTPUT Splitter"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_0_82+DGSviV8I=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_1_82+DGSviV8I=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_1_82+DGSviV8I=    TEST "@EvaluateExpression(STRING,$(Thumbnail$encode),Tester)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {{Percentage} == {RowsColumns}} {    puts {MACRO RESAMPLE_ARGS DIMENSIONS, <Unused>, <Unused>, NearestNeighbor} } elseif {{Percentage} == {CellSize}} {    puts {MACRO RESAMPLE_ARGS CELL_SIZE, <Unused>, <Unused>, NearestNeighbor} } elseif {{Percentage} == {Percentage}} {    puts {MACRO RESAMPLE_ARGS PERCENTAGE, @EvaluateExpression(FLOAT,$(PERCENTAGE$encode),RasterResampler), @EvaluateExpression(FLOAT,$(PERCENTAGE$encode),RasterResampler), NearestNeighbor} }; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterResampler    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT FEATURE_TYPE RasterResampler_RESAMPLED       @ResampleRaster($(RESAMPLE_ARGS))
+
+# -------------------------------------------------------------------------
+
+Tcl2 proc AttributeCreator_874bbd50_24c9_11e4_949e_bec49cce8bba3_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE RasterResampler_RESAMPLED    OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT         "@Tcl2( AttributeCreator_874bbd50_24c9_11e4_949e_bec49cce8bba3_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen>_thumb)} )"
+
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_0_82+DGSviV8I=    TEST "@EvaluateExpression(STRING,$(Greyscale$encode),Tester_2)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_2_FAILED
@@ -1314,7 +1328,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME RasterPaletteGenerator    INPUT  FEATUR
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE Tester_4_FAILED    INPUT  FEATURE_TYPE RasterPaletteGenerator_OUTPUT    TEST "@EvaluateExpression(STRING,$(Pyramid$encode),Tester_3)" = "Yes" TEST "@EvaluateExpression(STRING,$(OutputFormat),Tester_3)" != "PDF2D"    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE RasterPaletteGenerator_OUTPUT    INPUT  FEATURE_TYPE Tester_4_FAILED    TEST "@EvaluateExpression(STRING,$(Pyramid$encode),Tester_3)" = "Yes" TEST "@EvaluateExpression(STRING,$(OutputFormat),Tester_3)" != "PDF2D"    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
 # -------------------------------------------------------------------------
 
 INCLUDE [ if {[string length {<Unused>}]>0 && [string equal {<Unused>} {<Unused>}]==0} {    puts {MACRO SMALLEST_LEVEL_NUM_ROWS_CLAUSE SMALLEST_LEVEL_NUM_ROWS <Unused>} } else {    puts {MACRO SMALLEST_LEVEL_NUM_ROWS_CLAUSE} } ]
@@ -1324,30 +1338,16 @@ FACTORY_DEF * RasterPyramidFactory    FACTORY_NAME RasterPyramider    INPUT  FEA
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeCreator_2_d7c968bc_24a7_11e4_949e_bec49cce8bba35_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_2}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_2}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
+Tcl2 proc AttributeCreator_2_874be5dc_24c9_11e4_949e_bec49cce8bba3_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator_2}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator_2}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE RasterPyramider_PYRAMIDS    OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT         "@Tcl2( AttributeCreator_2_d7c968bc_24a7_11e4_949e_bec49cce8bba35_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen>_pyraLvl_<at>Value<openparen>_pyramid_level<closeparen>)} )"
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE RasterPyramider_PYRAMIDS    OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT         "@Tcl2( AttributeCreator_2_874be5dc_24c9_11e4_949e_bec49cce8bba3_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen>_pyraLvl_<at>Value<openparen>_pyramid_level<closeparen>)} )"
 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_1_82+DGSviV8I=    TEST "@EvaluateExpression(STRING,$(Thumbnail$encode),Tester)" = "Yes"    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
-# -------------------------------------------------------------------------
-
-INCLUDE [ if {{Percentage} == {RowsColumns}} {    puts {MACRO RESAMPLE_ARGS DIMENSIONS, <Unused>, <Unused>, NearestNeighbor} } elseif {{Percentage} == {CellSize}} {    puts {MACRO RESAMPLE_ARGS CELL_SIZE, <Unused>, <Unused>, NearestNeighbor} } elseif {{Percentage} == {Percentage}} {    puts {MACRO RESAMPLE_ARGS PERCENTAGE, @EvaluateExpression(FLOAT,$(PERCENTAGE$encode),RasterResampler), @EvaluateExpression(FLOAT,$(PERCENTAGE$encode),RasterResampler), NearestNeighbor} }; ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME RasterResampler    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT FEATURE_TYPE RasterResampler_RESAMPLED       @ResampleRaster($(RESAMPLE_ARGS))
-
-# -------------------------------------------------------------------------
-
-Tcl2 proc AttributeCreator_d7c9787a_24a7_11e4_949e_bec49cce8bba35_attrSetter { attrList } {     set attrList [string trim $attrList {()}];     set attrs [split $attrList {,} ];     foreach {attrName attrVal} $attrs {         if { [string match {*<at>*} $attrName] == 1 } {             set attrName [FME_Execute EvaluateExpression {STRING} $attrName {AttributeCreator}];         } else {             set attrName [FME_DecodeText $attrName];         };         if { [string match {*<at>*} $attrVal] == 1 } {             set attrVal [FME_Execute EvaluateExpression {STRING_ENCODED} $attrVal {AttributeCreator}];         };         FME_SetAttribute $attrName [FME_DecodeText $attrVal];     }; };
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE RasterResampler_RESAMPLED    OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT         "@Tcl2( AttributeCreator_d7c9787a_24a7_11e4_949e_bec49cce8bba35_attrSetter {(fme_basename,<at>Value<openparen>fme_basename<closeparen>_thumb)} )"
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "AttributeCreator_OUTPUT -> NewFeatureType Correlator"    INPUT FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Tester_3_FAILED -> NewFeatureType Correlator"    INPUT FEATURE_TYPE Tester_3_FAILED    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "AttributeCreator_OUTPUT -> NewFeatureType Correlator"    INPUT FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "AttributeCreator_2_OUTPUT -> NewFeatureType Correlator"    INPUT FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE __GO_TO_FINAL_OUTPUT_ROUTER__       multi_writer_id 0       @Transform(FME_GENERIC,GENERIC)       @SupplyAttributes(ENCODED,fme_template_feature_type,NewFeatureType)       @CopyAttributes(ENCODED,__wb_out_feat_type__,fme_basename)
