@@ -110,22 +110,10 @@ var dataDist = (function () {
       //will eventually be different for each web map type
       var query = document.location.search;
       var mapService = query.split('=');
-      if (mapService[1] == 'google'){
-        mapManager = new GoogleMapsManager();
-        polygonControl = new GoogleMapsPolygonDrawTools(mapManager.myGoogleMap);
-        mapManager.myGoogleMap.data.loadGeoJson('js/RasterBoundaries.json');
+      mapManager = new GoogleMapsManager();
+      polygonControl = new GoogleMapsPolygonDrawTools(mapManager.myGoogleMap);
+      mapManager.myGoogleMap.data.loadGeoJson('js/RasterBoundaries.json');
 
-      } else {
-        //copied from th arcgis on-ready.js
-        dojo.require("esri.map");
-        dojo.require("esri.toolbars.draw");
-
-        function initialize(){
-          mapManager = new ArcGisMapsManager();
-          polygonControl = new ArcGISPolygonDrawTools(mapManager);
-        }
-        dojo.addOnLoad(initialize);
-      }
 
       FMEServer.init({
         server : host,
