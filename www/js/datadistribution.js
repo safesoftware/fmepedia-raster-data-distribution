@@ -2,11 +2,12 @@ var lon = -123.114166;
 var lat = 49.264549;
 
 $(document).ready(function() {
-	dataDist.init({
-    host : "https://fmepedia2014-safe-software.fmecloud.com",
-    token : "fb1c3ee6828e6814c75512dd4770a02e73d913b8"
+  $.getJSON("http://demos.fmeserver.com.s3.amazonaws.com/server-demo-config.json", function(config) {
+    dataDist.init({
+      host : config.initObject.server,
+      token : config.initObject.token
+    });
   });
-
 });
 
 $(window).resize(function(){
