@@ -4,7 +4,7 @@ function GoogleMapsManager() {
 	var me = this;
 	var mapOptions = {
 		center: new google.maps.LatLng(lat, lon),
-		zoom: 12,
+		zoom: 13,
 		disableDefaultUI: true,
 		zoomControl: true,
 		panControl: true,
@@ -27,4 +27,3 @@ function GoogleMapsManager() {
 	me.myGoogleMap = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
 };
-
