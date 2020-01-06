@@ -113,6 +113,9 @@ var dataDist = (function () {
        show: true
      });
     }
+
+		$('#parameters').remove();
+    FMEServer.getWorkspaceParameters(repository, workspaceName, buildParams);
   }
 
 
@@ -175,6 +178,10 @@ var dataDist = (function () {
       }
       params = params.substr(0, params.length-1);
       FMEServer.runDataDownload(repository, workspaceName, params, displayResult);
+
+			var message = '<div class="alert alert-success"> Your request has been submitted. <br/> Please wait as your request will take a few moments for FME Server to retrieve and compile your results.</div>';
+			$('#parameters').html(message);
+
       return false;
     },
 
